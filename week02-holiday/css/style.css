@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+.courses{
+    width: 1200px;
+    margin: 0 auto;
+}
+.col-3{
+    width:calc((100%/12)*3);
+}
+.col-12{
+    width:calc((100%/12)*12);
+}
+
+.box{
+    height: 200px;
+    border: 1px solid gray;
+    background: lightgray;
+    display: flex;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.btn-border{
+    border: 1px solid rgba(50, 26, 202, 0.248);
+}
+.btn-radius{
+    border-radius: 10px;
+}
+.btn-first{
+    background: darkblue;
+    color: yellow;
+}
+.btn-first:hover{
+    background: red;
+    color: green;
+} 
+
+
