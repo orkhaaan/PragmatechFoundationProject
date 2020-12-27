@@ -4,6 +4,7 @@ body{
 .courses{
     width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 .col-3{
     width:calc((100%/12)*3);
