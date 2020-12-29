@@ -56,12 +56,15 @@ width: 150px;
 .navbar-links ul li:hover{
     color: gold;
 }
-.btn{
+.header-slider button{
+    background:#474622 ;
+    
+    height: 40px;
     width: 200px;
-    height: 30px;
-    border: 5px solid gold;
+    border: 4px solid #474622;
     cursor: pointer;
+
 }
-.btn:hover{
-    color: gold;
+.header-slider button:hover{
+    background: #bfbb3b;
 }
