@@ -45,6 +45,8 @@ width: 150px;
 }
 .navbar-links ul li{
   margin: 0px 30px;
+  color: white;
+  font-size: 22px;
 
 }
 .header-slider{
@@ -57,8 +59,7 @@ width: 150px;
     color: gold;
 }
 .header-slider button{
-    background:#474622 ;
-    
+    color: #c2bc46;
     height: 40px;
     width: 200px;
     border: 4px solid #474622;
@@ -66,5 +67,11 @@ width: 150px;
 
 }
 .header-slider button:hover{
-    background: #bfbb3b;
+    background: gold;
+}
+.header-slider h1{
+    color: white;
+}
+.header-slider p{
+    color: white;
 }
