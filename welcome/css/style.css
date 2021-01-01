@@ -1,0 +1,20 @@
+body h1,h2,h3,h4 ul{
+    margin: 0px;
+}
+#welcome-list{
+    width: 1200px;
+    margin: 120px auto;
+}
+.container{
+
+
+}
+.row{
+text-align: center;
+
+}
+.col-12{
+    width:calc((100%/12)*12);
+   
+    height: 400px;
+}
