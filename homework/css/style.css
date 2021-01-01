@@ -1,0 +1,30 @@
+body h1,h2,h3,h4 ul{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+width: 1200px;
+margin: 0px auto;
+}
+.row{
+
+}
+
+.col-2{
+    width:calc((100%/12)*2);
+    
+    height: 50px;
+    padding: 0px;
+    margin: -13px;
+}
+.col-6{
+    width:calc((100%/12)*6);
+    border: 1px solid red;
+    height: 50px;
+    background: #e0d69b;
+    
+}
+.col-2 h1{
+    color:#998a36;
+    font-family: 'Merriweather', serif;
+}
