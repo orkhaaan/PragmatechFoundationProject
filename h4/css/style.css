@@ -2,6 +2,7 @@ body{
     margin: 0px;
 }
 #header{
+    margin: 50px;
  
 }
 .row{
@@ -21,3 +22,11 @@ body{
     height: 400px;
     margin: 0px 10px;
 }
+.row-1{
+    width: 1200px;
+    display: flex;
+    margin: 0px auto;
+    height: 55px;
+}
+
+
