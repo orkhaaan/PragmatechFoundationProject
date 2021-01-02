@@ -6,11 +6,13 @@ body h1,h2,h3,h4 ul{
     margin: 0 auto;
     width: 1400px;
     padding: 30px 0px;
+  
     
 }
 #video-list{
     width: 1400px;
     margin: 0 auto;
+    
 }
 #video-slider{
     
@@ -32,6 +34,7 @@ padding: 30px 0px;
 .row{
     display: flex;
     justify-content: space-evenly;
+    margin: -30px;
 
 }
 .col-2{
@@ -43,7 +46,6 @@ padding: 30px 0px;
 }
 .col-12{
     width:calc((100%/12)*12);
-   
     height: 60px;
     color:#aba26d;
     font-family: 'Open Sans', sans-serif;
@@ -57,6 +59,11 @@ padding: 30px 0px;
     height: 50px;
     background:#aba26d ;
     border: 1px solid black;
+   
+}
+.col-6 div{
+    text-align: end;
+    margin-top: -15px;
 }
 .col-2 h1{
     font-family: 'Merriweather', serif;
@@ -64,18 +71,18 @@ padding: 30px 0px;
 }
 .col-6 p{
     color:#424137 ;
+    text-align: start;
+    margin-bottom: 10px;
 }
 .col-2-eks{
     width:calc((100%/12)*2);
     border: 1px solid black;
     height: 50px;
     background:#aba26d ;
+    text-align: center;
     
 }
-.col-2-eks p{
-    margin: -5px 0px;
-    text-align: center;
-}
+
 .col-2-eks1 h{
     color:#424137 ;
 }
@@ -84,7 +91,7 @@ padding: 30px 0px;
     
     height: 50px;
     color: #c2bb95;
-    text-align: center;
+    text-align: end;
 }
 .col-2-b{
     width:calc((100%/12)*2);
@@ -103,4 +110,72 @@ padding: 30px 0px;
     width:calc((100%/12)*5);
     border: 1px solid blue;
     height: 500px;
+}
+
+.col-6-z{
+    width:calc((100%/12)*6); 
+    height: 200px;
+    background: #aba26d ;
+}
+.col-2-z{
+    width:calc((100%/12)*2);
+    border: 1px solid black;
+    height: 200px;
+    background:#aba26d ;
+}
+
+.col-4-z{
+    width:calc((100%/12)*4);
+    border-top: 1px solid black;
+    height: 200px;
+}
+.col-4-zz{
+
+    width:calc((100%/12)*4);
+    
+    height: 200px;
+}
+.col-3-m{
+    width:calc((100%/12)*3);
+    background:#aba26d ;
+    border: 1px solid black;
+}
+.col-2-m{
+    width:calc((100%/12)*2);
+    border: 1px solid black;
+    height: 200px;
+    background:#aba26d ;
+
+}
+.col-4-m{
+    width:calc((100%/12)*4);
+    border-bottom: 1px solid black;
+    height: 200px;
+    
+
+}
+.col-12-z{
+    width:calc((100%/12)*12);
+    border-top: 1px solid black;
+    height: 150px;
+    margin: 90px 0px;
+    
+
+}
+.row-h{
+    margin: 0 auto;
+}
+.twitter{
+    margin: 20px;
+}
+.col-12-p{
+    width:calc((100%/12)*12);
+  
+    height: 150px;
+
+}
+    
+.row-p{
+    margin: -190px 0px;
+
 }

@@ -1,0 +1,18 @@
+#test-list{
+
+}
+.container{
+margin: 0 auto;
+}
+.row{
+
+
+}
+.col-3{
+    
+    width:calc((100%/12)*3);
+    border: 1px solid red;
+}
+.box{
+
+}
