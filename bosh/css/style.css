@@ -1,0 +1,46 @@
+#boss{
+width: 100%;
+}
+.header{
+    background: rgb(46, 42, 42);
+    height: 250px;
+    width: 100%;
+}
+.header h1{
+
+    text-align: center;
+    padding: 20px;
+}
+.header .navbar ul{
+    color: white;
+    padding: 100px 220px;
+    color: gray;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.header .navbar ul li{
+    
+    height: 30px;
+
+}
+.header .navbar ul li:hover{
+    border-bottom: 2px solid black;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer .box{
+    padding: 30px;
+    cursor: pointer;
+}
+.footer .box h1 {
+    border-right: 2px solid gray;
+    padding: 0px 70px;
+}
