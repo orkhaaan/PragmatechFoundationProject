@@ -1,6 +1,7 @@
-body h1,h2,h3,h4 ul{
+body{
     margin: 0px;
     padding: 0px;
+    background:#9c3034 ;
 }
 #pricelist{
     margin: 0 auto;
@@ -116,6 +117,7 @@ padding: 30px 0px;
     width:calc((100%/12)*6); 
     height: 200px;
     background: #aba26d ;
+   
 }
 .col-2-z{
     width:calc((100%/12)*2);
@@ -139,6 +141,7 @@ padding: 30px 0px;
     width:calc((100%/12)*3);
     background:#aba26d ;
     border: 1px solid black;
+   
 }
 .col-2-m{
     width:calc((100%/12)*2);
@@ -159,7 +162,6 @@ padding: 30px 0px;
     border-top: 1px solid black;
     height: 150px;
     margin: 90px 0px;
-    
 
 }
 .row-h{
@@ -170,7 +172,7 @@ padding: 30px 0px;
 }
 .col-12-p{
     width:calc((100%/12)*12);
-  
+
     height: 150px;
 
 }

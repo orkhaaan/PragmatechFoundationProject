@@ -1,0 +1,40 @@
+.body h1,h2,h3,h4 ul{
+
+
+}
+#video-list{
+padding: 10px 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.col-3{
+    width:calc((100%/12)*3);
+    border: 1px solid red;
+    
+}
+
+.col-4{
+    width:calc((100%/12)*4);
+    border: 1px solid green;
+    text-align: center;
+    align-items: center;
+}
+
+
+.box{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 100px;
+    
+    
+}

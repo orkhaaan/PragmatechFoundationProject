@@ -1,0 +1,86 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#team{
+    padding: 50px 0;
+    font-size: 15px;
+}
+.team-header-left{}
+
+.team-header-left h5{
+    color: blue;
+}
+
+
+.team-header-left h3{
+    color: rgb(62, 62, 80);
+    font-size: 1.8em;
+}
+
+.team-header-left h3 span{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.team-header-middle{
+    color: gray;
+}
+.team-header-right{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 0;
+}
+.team-member{
+    min-height: 500px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member img{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    background:blue ;
+    color: white;
+    width: 30px;
+    position: absolute;
+    left: -30px;
+    z-index: 3;
+    transition: all .5s ease;
+}
+.icons i{
+    padding: 7px;
+}
+.image{
+    object-fit: cover;
+    z-index: 1;
+    transition: all .5s ease;
+}
+.info{
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px gray;
+    background: white;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    bottom: 20px;
+    left: 39px;
+    z-index: 2;
+}
+.team-member:hover .image{
+    transform: scale(1.3);
+    
+}
+.team-member:hover .icons{
+    left: 0px;
+}
+.team-member:hover .info{
+    border-bottom: 5px solid green;
