@@ -189,83 +189,169 @@ body {
 }
 
 #blog {
-  height: 1000px;
+  height: 950px;
   background: #d4d9c1;
 }
 
-#blog .container .header {
+#blog .container .row {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#blog .container .header .title h1 {
-  font-size: 30px;
+#blog .container .row .col-12 .title {
+  font-size: 25px;
 }
 
-#blog .container .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  cursor: pointer;
-}
-
-#blog .container .main .col-8 {
-  margin-right: 10px;
-}
-
-#blog .container .main .col-8 .item {
-  width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0 0 5px;
-          box-shadow: 0 0 5px;
-}
-
-#blog .container .main .col-8 .item .image img {
-  width: 100%;
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#blog .container .main .col-4 {
+#blog .container .row .col-8 .footer {
+  background-color: white;
+  height: 120px;
   margin-left: 10px;
+  width: 711px;
+  margin-top: -4px;
+  position: relative;
 }
 
-#blog .container .main .col-4 .box .image img {
-  width: 100%;
-  height: 200px;
+#blog .container .row .col-8 .footer h3 {
+  position: absolute;
+  left: 35px;
 }
 
-#blog .container .footer {
-  padding-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+#blog .container .row .col-8 .footer .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
 }
 
-#blog .container .footer .col-4 {
-  margin-left: 10px;
+#blog .container .row .col-8 .footer p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
 }
 
-#blog .container .footer .col-4 .box {
-  width: 100%;
-  height: 350px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0 0 5px;
-          box-shadow: 0 0 5px;
+#blog .container .row .col-4 .footer1 {
+  background-color: white;
+  height: 120px;
+  margin-left: 0px;
+  width: 362px;
+  margin-top: -4px;
+  position: relative;
 }
 
-#blog .container .footer .col-4 .box .image img {
-  width: 100%;
-  height: 210px;
+#blog .container .row .col-4 .footer1 h3 {
+  position: absolute;
+  left: 35px;
 }
 
-#blog .container .col-12 button {
-  margin: 0 auto;
-  border: 1px solid red;
-  width: 150px;
-  height: 50px;
+#blog .container .row .col-4 .footer1 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .footer1 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .row .col-4 .box {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+#blog .container .row .col-4 .box .footer2 {
+  background-color: white;
+  height: 120px;
+  margin-left: 0px;
+  width: 362px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-4 .box .footer2 h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box .footer2 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box .footer2 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .row .col-4 .box3 {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#blog .container .row .col-4 .box3 .image2 {
+  margin-left: -26px;
+}
+
+#blog .container .row .col-4 .box3 .image2 img {
+  width: 92%;
+  height: 222px;
+  margin-left: -23px;
+}
+
+#blog .container .row .col-4 .box3 .footer2 {
+  background-color: white;
+  height: 120px;
+  margin-left: -26px;
+  width: 311px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-4 .box3 .footer2 h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box3 .footer2 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box3 .footer2 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .row .col-4 .box4 .footer4 {
+  background-color: white;
+  height: 120px;
+  margin-left: 0px;
+  width: 362px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-4 .box4 .footer4 h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box4 .footer4 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box4 .footer4 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
 }
 
 #end {
