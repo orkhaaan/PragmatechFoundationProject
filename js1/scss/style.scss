@@ -1,0 +1,30 @@
+#blog{
+    padding: 20px 0px;
+    .blog-item{
+        box-shadow: 0px 0px 5px lightgrey;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+}
+.btn{
+    padding: 15px 25px;
+    box-shadow: 0px 0px 5px gray;
+    color: black;
+    transition: all .3s ease;
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    &:hover{
+        background: black;
+        color: wheat;
+    }
+}
+.fun{
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0px 5px gray;
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    transition: all .3s ease;
+}
