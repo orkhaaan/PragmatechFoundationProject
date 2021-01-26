@@ -1,0 +1,38 @@
+.acc{
+    .acc-item{
+        
+        
+        border-bottom: 1px solid grey;
+    
+        .acc-item-header{
+            background: lightgrey;
+            cursor: pointer;
+            h2{
+                padding: 15px 10px;
+                
+            }
+
+        }
+        .acc-item-body{
+            border: 1px solid lightgrey;
+            padding: 15px 10px;
+
+        }
+    }
+}
+.active{
+    padding: 15px 10px;
+
+
+
+}
+.passive{
+    height: 0px;
+    overflow: hidden;
+
+}
+.btn{
+    padding: 15px 30px ;
+    box-shadow: 0px 0px 5px lightgrey;
+    cursor: pointer;
+}
