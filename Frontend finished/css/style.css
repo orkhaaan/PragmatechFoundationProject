@@ -1,0 +1,3356 @@
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#enter {
+  height: 1000px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#enter .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#enter .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#enter .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#enter .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#enter .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#enter .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#enter .header .navbar ul .show {
+  display: block;
+}
+
+#enter .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#enter .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#enter .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#enter .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#enter .box {
+  margin-top: -70px;
+}
+
+#enter .box h1 {
+  font-size: 50px;
+}
+
+#enter .box p {
+  font-size: 20px;
+}
+
+#enter button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#enter button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#welcome .box {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#welcome .box h1 {
+  font-size: 40px;
+  margin-top: -34px;
+}
+
+#welcome .box p {
+  font-size: 20px;
+}
+
+#our-courses {
+  height: 800px;
+  background-color: #f2f2f2;
+}
+
+#our-courses .container .row .col-12 {
+  font-size: 25px;
+  text-align: center;
+}
+
+#our-courses .container .row .col-3 {
+  height: 340px;
+}
+
+#our-courses .container .row .col-3 .box {
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 0 6px;
+          box-shadow: 0 0 6px;
+}
+
+#our-courses .container .row .col-3 .box:hover {
+  -webkit-transform: scaleY(1.05);
+          transform: scaleY(1.05);
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+#our-courses .container .row .col-3 .box:hover .image {
+  background-color: #ccc276;
+  z-index: 2;
+}
+
+#our-courses .container .row .col-3 .box:hover .icon {
+  -webkit-transform: rotate(70deg);
+          transform: rotate(70deg);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#our-courses .container .row .col-3 .box .image {
+  z-index: 2;
+}
+
+#our-courses .container .row .col-3 .box .image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 163px;
+  z-index: 1;
+}
+
+#our-courses .container .row .col-3 .box .icon {
+  position: absolute;
+  top: 135px;
+  font-size: 30px;
+  right: 20px;
+  color: white;
+  z-index: 3;
+  padding-top: 8px;
+}
+
+#our-courses .container .row .col-3 .box .when {
+  background: white;
+  height: 170px;
+  position: relative;
+}
+
+#our-courses .container .row .col-3 .box .when h3 {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+#our-courses .container .row .col-3 .box .when p {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+#our-courses .container .row .col-3 .box .when2 {
+  background: white;
+  height: 170px;
+  position: relative;
+}
+
+#our-courses .container .row .col-3 .box .when2 h3 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#our-courses .container .row .col-3 .box .when2 p {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+#our-courses .container .row .col-3 .box .when3 {
+  background: white;
+  height: 170px;
+  position: relative;
+}
+
+#our-courses .container .row .col-3 .box .when3 h3 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#our-courses .container .row .col-3 .box .when3 p {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+#our-courses .container .row .col-3 .box .when4 {
+  background: white;
+  height: 170px;
+  position: relative;
+}
+
+#our-courses .container .row .col-3 .box .when4 h3 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#our-courses .container .row .col-3 .box .when4 p {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+#our-courses .container .row .btn {
+  margin: auto;
+  margin-top: 50px;
+}
+
+#our-courses .container .row .btn button {
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+  border: 2px solid #8c8022;
+  color: #8c8022;
+  font-size: 18px;
+}
+
+#our-courses .container .row .btn button:hover {
+  background: #ccc276;
+  color: white;
+}
+
+#upcoming .container {
+  background: white;
+  height: 800px;
+}
+
+#upcoming .container .slider .row .col-6 {
+  cursor: pointer;
+  height: 370px;
+  position: relative;
+}
+
+#upcoming .container .slider .row .col-6 .box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 0 7px;
+          box-shadow: 0 0 7px;
+}
+
+#upcoming .container .slider .row .col-6 .box .text {
+  padding: 0 16px;
+}
+
+#upcoming .container .slider .row .col-6 .box .text p {
+  position: absolute;
+  top: 100px;
+  color: white;
+  font-size: 20px;
+}
+
+#upcoming .container .slider .row .col-6 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+#blog {
+  height: 950px;
+  background: #f2f2f2;
+}
+
+#blog .container .row {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#blog .container .row .col-12 .title {
+  font-size: 25px;
+}
+
+#blog .container .row .col-8 {
+  cursor: pointer;
+}
+
+#blog .container .row .col-8 .footer {
+  background-color: white;
+  height: 120px;
+  margin-left: 10px;
+  width: 711px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-8 .footer h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-8 .footer .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-8 .footer p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .row .col-4 {
+  cursor: pointer;
+}
+
+#blog .container .row .col-4 .footer1 {
+  background-color: white;
+  height: 120px;
+  margin-left: 0px;
+  width: 362px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-4 .footer1 h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .footer1 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .footer1 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .row .col-4 .box {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+#blog .container .row .col-4 .box .footer2 {
+  background-color: white;
+  height: 120px;
+  margin-left: 0px;
+  width: 362px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-4 .box .footer2 h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box .footer2 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box .footer2 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .row .col-4 .box3 {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#blog .container .row .col-4 .box3 .image2 {
+  margin-left: -26px;
+}
+
+#blog .container .row .col-4 .box3 .image2 img {
+  width: 97%;
+  height: 222px;
+  margin-left: -11px;
+}
+
+#blog .container .row .col-4 .box3 .footer2 {
+  background-color: white;
+  height: 123px;
+  margin-left: -26px;
+  width: 325px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-4 .box3 .footer2 h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box3 .footer2 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .box3 .footer2 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .row .col-4 .box4 {
+  margin-left: -8px;
+  margin-top: 30px;
+}
+
+#blog .container .row .col-4 .box4 .image4 {
+  margin-top: 30px;
+  margin-left: -2px;
+}
+
+#blog .container .row .col-4 .box4 .image4 img {
+  margin-left: 2px;
+}
+
+#blog .container .row .col-4 .footer4 {
+  background-color: white;
+  height: 120px;
+  margin-left: 4px;
+  width: 362px;
+  margin-top: -4px;
+  position: relative;
+}
+
+#blog .container .row .col-4 .footer4 h3 {
+  position: absolute;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .footer4 .far {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+}
+
+#blog .container .row .col-4 .footer4 p {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+}
+
+#blog .container .btn {
+  margin: auto;
+  margin-top: 31px;
+}
+
+#blog .container .btn button {
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+  border: 2px solid #8c8022;
+  color: #8c8022;
+  font-size: 18px;
+}
+
+#blog .container .btn button:hover {
+  background: #ccc276;
+  color: white;
+}
+
+#end {
+  background: #292b2c;
+}
+
+#end .container .row {
+  padding-top: 120px;
+}
+
+#end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#end .container .row .col-3 span {
+  color: white;
+}
+
+#end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#about-header {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#about-header .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#about-header .header .title .col-12 h1 {
+  color: white;
+}
+
+#about-header .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#about-header .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#about-header .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#about-header .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#about-header .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#about-header .header .navbar ul .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#about-header .header .navbar ul .tittle .col-12 h1 {
+  color: white;
+}
+
+#about-header .header .navbar ul .show {
+  display: block;
+}
+
+#about-header .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#about-header .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#about-header .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#about-header .header .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#about-header .header .tittle .col-12 h1 {
+  color: white;
+}
+
+#about-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#about-header .box {
+  margin-top: -70px;
+}
+
+#about-header .box h1 {
+  font-size: 50px;
+}
+
+#about-header .box p {
+  font-size: 20px;
+}
+
+#about-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#about-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#our-students {
+  height: 570px;
+  background-color: #f2f2f2;
+}
+
+#our-students .container .row {
+  text-align: center;
+  font-size: 25px;
+}
+
+#our-students .container .row #slider {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#our-students .container .row #slider input[type=radio] {
+  display: none;
+}
+
+#our-students .container .row #slider label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#our-students .container .row #slides {
+  padding: 10px;
+  border: 3px solid #ccc;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#our-students .container .row #overflow {
+  width: 100%;
+  overflow: hidden;
+}
+
+#our-students .container .row #slide1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+
+#our-students .container .row #slide2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+
+#our-students .container .row #slide3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+
+#our-students .container .row #slide4:checked ~ #slides .inner {
+  margin-left: -300%;
+}
+
+#our-students .container .row #slides .inner {
+  -webkit-transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  width: 400%;
+  line-height: 0;
+  height: 300px;
+}
+
+#our-students .container .row #slides .slide {
+  width: 25%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+#our-students .container .row #slides .slide_1 {
+  background: #00171F;
+}
+
+#our-students .container .row #slides .slide_2 {
+  background: #003459;
+}
+
+#our-students .container .row #slides .slide_3 {
+  background: #007EA7;
+}
+
+#our-students .container .row #slides .slide_4 {
+  background: #00A8E8;
+}
+
+#our-students .container .row #controls {
+  margin: -180px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+}
+
+#our-students .container .row #controls label {
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: .4;
+}
+
+#our-students .container .row #controls label:hover {
+  opacity: 1;
+}
+
+#our-students .container .row #slide1:checked ~ #controls label:nth-child(2),
+#our-students .container .row #slide2:checked ~ #controls label:nth-child(3),
+#our-students .container .row #slide3:checked ~ #controls label:nth-child(4),
+#our-students .container .row #slide4:checked ~ #controls label:nth-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+  float: right;
+  margin: 0 -50px 0 0;
+  display: block;
+}
+
+#our-students .container .row #slide1:checked ~ #controls label:nth-last-child(2),
+#our-students .container .row #slide2:checked ~ #controls label:nth-last-child(3),
+#our-students .container .row #slide3:checked ~ #controls label:nth-last-child(4),
+#our-students .container .row #slide4:checked ~ #controls label:nth-last-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  float: left;
+  margin: 0 0 0 -50px;
+  display: block;
+}
+
+#our-students .container .row #bullets {
+  margin: 150px 0 0;
+  text-align: center;
+}
+
+#our-students .container .row #bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+#our-students .container .row #slide1:checked ~ #bullets label:nth-child(1),
+#our-students .container .row #slide2:checked ~ #bullets label:nth-child(2),
+#our-students .container .row #slide3:checked ~ #bullets label:nth-child(3),
+#our-students .container .row #slide4:checked ~ #bullets label:nth-child(4) {
+  background: #444;
+}
+
+@media screen and (max-width: 900px) {
+  #our-students .container .row #slide1:checked ~ #controls label:nth-child(2),
+  #our-students .container .row #slide2:checked ~ #controls label:nth-child(3),
+  #our-students .container .row #slide3:checked ~ #controls label:nth-child(4),
+  #our-students .container .row #slide4:checked ~ #controls label:nth-child(1),
+  #our-students .container .row #slide1:checked ~ #controls label:nth-last-child(2),
+  #our-students .container .row #slide2:checked ~ #controls label:nth-last-child(3),
+  #our-students .container .row #slide3:checked ~ #controls label:nth-last-child(4),
+  #our-students .container .row #slide4:checked ~ #controls label:nth-last-child(1) {
+    margin: 0;
+  }
+  #our-students .container .row #slides {
+    max-width: calc(100% - 140px);
+    margin: 0 auto;
+  }
+}
+
+#what {
+  height: 650px;
+}
+
+#what .container {
+  margin-top: 100px;
+}
+
+#what .container .row .col-6 {
+  margin-top: 50px;
+}
+
+#what .container .row .col-6 .box h1 {
+  font-size: 30px;
+}
+
+#what .container .row .col-6 .box p {
+  font-size: 15px;
+}
+
+#what .container .row .col-6 .box .btn {
+  margin-top: 30px;
+}
+
+#what .container .row .col-6 .box .btn button {
+  cursor: pointer;
+  height: 60px;
+  background: white;
+  width: 250px;
+  border: 2px solid #cbb58b;
+  color: #cbb58b;
+  font-size: 18px;
+}
+
+#what .container .row .col-6 .box .btn button:hover {
+  background: #cbb58b;
+  color: white;
+}
+
+#about-end {
+  background: #292b2c;
+}
+
+#about-end .container .row {
+  padding-top: 120px;
+}
+
+#about-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#about-end .container .row .col-3 span {
+  color: white;
+}
+
+#about-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#about-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#about-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#admissions-header {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#admissions-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#admissions-header .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#admissions-header .header .title .col-12 h1 {
+  color: white;
+}
+
+#admissions-header .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#admissions-header .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#admissions-header .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#admissions-header .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#admissions-header .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#admissions-header .header .navbar ul .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#admissions-header .header .navbar ul .tittle .col-12 h1 {
+  color: white;
+}
+
+#admissions-header .header .navbar ul .show {
+  display: block;
+}
+
+#admissions-header .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#admissions-header .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#admissions-header .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#admissions-header .header .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#admissions-header .header .tittle .col-12 h1 {
+  color: white;
+}
+
+#admissions-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#admissions-header .box {
+  margin-top: -70px;
+}
+
+#admissions-header .box h1 {
+  font-size: 50px;
+}
+
+#admissions-header .box p {
+  font-size: 20px;
+}
+
+#admissions-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#admissions-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#admissions-rules .container .row {
+  border-bottom: 2px solid #EBEBEB;
+  margin: 100px;
+}
+
+#admissions-rules .container .row .col-6 .box {
+  height: 200px;
+}
+
+#admissions-rules .container .row .col-6 .box h1 {
+  font-size: 40px;
+}
+
+#admissions-rules .container .row .col-6 .box ul {
+  margin-top: 110px;
+}
+
+#admissions-Form {
+  height: 600px;
+}
+
+#admissions-Form .container .row .col-12 {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#admissions-Form .container .row .col-12 .icon {
+  color: #e0d4a4;
+  font-size: 25px;
+}
+
+#admissions-Form .container .row .col-12 .text {
+  font-size: 30px;
+}
+
+#admissions-Form .container .row .col-lg-6 .box {
+  margin-top: -10px;
+}
+
+#admissions-Form .container .row .col-lg-6 .form-control {
+  width: 350px;
+  height: 50px;
+}
+
+#admissions-Form .container .row .col-lg-6 .send-form .input-group .form-control {
+  color: black;
+  width: 350px;
+  height: 50px;
+  margin-top: 10px;
+  padding-left: 57px;
+}
+
+#admissions-Form .container .row .col-lg-6 .btn {
+  padding-left: 177px;
+  padding-top: 30px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+#admissions-Form .container .row .col-lg-6 .btn button {
+  background: white;
+  width: 175px;
+  height: 50px;
+  border: 4px solid #e0d4a4;
+  cursor: pointer;
+  color: #e0d4a4;
+}
+
+#admissions-Form .container .row .col-lg-6 .btn button:hover {
+  background: #e0d4a4;
+  color: white;
+}
+
+#admissions-end {
+  background: #292b2c;
+}
+
+#admissions-end .container .row {
+  padding-top: 120px;
+}
+
+#admissions-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#admissions-end .container .row .col-3 span {
+  color: white;
+}
+
+#admissions-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#admissions-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#admissions-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#category-header {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#category-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#category-header .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#category-header .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#category-header .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#category-header .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#category-header .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#category-header .header .navbar ul .show {
+  display: block;
+}
+
+#category-header .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#category-header .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#category-header .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#category-header .header .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#category-header .header .tittle .col-12 h1 {
+  color: white;
+}
+
+#category-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#category-header .box {
+  margin-top: -70px;
+}
+
+#category-header .box h1 {
+  font-size: 50px;
+}
+
+#category-header .box p {
+  font-size: 20px;
+}
+
+#category-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#category-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#category-main {
+  height: 800px;
+  background-color: white;
+}
+
+#category-main .container .row {
+  margin: 20px 0px;
+}
+
+#category-main .container .row .col-6 .row .col-6 .box {
+  cursor: pointer;
+  margin-left: -30px;
+  border: 1px solid #EBEBEB;
+  -webkit-box-shadow: 0px 0px 6px gray;
+          box-shadow: 0px 0px 6px gray;
+  height: 330px;
+}
+
+#category-main .container .row .col-6 .row .col-6 .box .image:hover {
+  background: black;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#category-main .container .row .col-6 .row .col-6 .box .image img {
+  width: 100%;
+  height: 328px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#category-main .container .row .col-6 .row .col-6 .box .text {
+  margin-left: 20px;
+}
+
+#category-main .container .row .col-6 .row .col-6 .box .icon {
+  padding-left: 20px;
+}
+
+#category-main .container .row .col-6 .row .col-6 .box .paragraph {
+  padding-left: 20px;
+}
+
+#category-main .container .row .col-6 .row .col-6 .box .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#category-end {
+  background: #292b2c;
+}
+
+#category-end .container .row {
+  padding-top: 120px;
+}
+
+#category-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#category-end .container .row .col-3 span {
+  color: white;
+}
+
+#category-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#category-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#category-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#Research-start {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Research-start .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#Research-start .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#Research-start .header .title .col-12 h1 {
+  color: white;
+}
+
+#Research-start .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#Research-start .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#Research-start .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#Research-start .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#Research-start .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#Research-start .header .navbar ul .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#Research-start .header .navbar ul .tittle .col-12 h1 {
+  color: white;
+}
+
+#Research-start .header .navbar ul .show {
+  display: block;
+}
+
+#Research-start .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#Research-start .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#Research-start .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#Research-start .header .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#Research-start .header .tittle .col-12 h1 {
+  color: white;
+}
+
+#Research-start .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#Research-start .box {
+  margin-top: -70px;
+}
+
+#Research-start .box h1 {
+  font-size: 50px;
+}
+
+#Research-start .box p {
+  font-size: 20px;
+}
+
+#Research-start button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#Research-start button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#Research-main {
+  height: 800px;
+}
+
+#Research-main .container {
+  margin-top: 100px;
+}
+
+#Research-main .container .row {
+  margin-bottom: 10px;
+}
+
+#Research-main .container .row .col-8 .row .col-4 .img img {
+  width: 100%;
+}
+
+#Research-main .container .row .col-4 {
+  border-bottom: 1px solid lightgrey;
+}
+
+#Research-box-accordion {
+  margin-top: 200px;
+  height: 500px;
+}
+
+#Research-box-accordion .container .row {
+  margin-bottom: 50px;
+}
+
+#Research-box-accordion .container .row .col-10 {
+  background: #cbb58b;
+  margin: 0 auto;
+  height: 300px;
+}
+
+#Research-box-accordion .container .row .col-10 .title {
+  position: relative;
+}
+
+#Research-box-accordion .container .row .col-10 .title h1 {
+  position: absolute;
+  top: 40px;
+  left: 320px;
+  color: white;
+}
+
+#Research-box-accordion .container .row .col-10 .title p {
+  position: absolute;
+  top: 95px;
+  left: 20px;
+  color: #eee5d4;
+}
+
+#research-accordion .container .row #slider {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#research-accordion .container .row #slider input[type=radio] {
+  display: none;
+}
+
+#research-accordion .container .row #slider label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#research-accordion .container .row #slides {
+  padding: 10px;
+  border: 3px solid #ccc;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#research-accordion .container .row #overflow {
+  width: 100%;
+  overflow: hidden;
+}
+
+#research-accordion .container .row #slide1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+
+#research-accordion .container .row #slide2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+
+#research-accordion .container .row #slide3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+
+#research-accordion .container .row #slide4:checked ~ #slides .inner {
+  margin-left: -300%;
+}
+
+#research-accordion .container .row #slides .inner {
+  -webkit-transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  width: 400%;
+  line-height: 0;
+  height: 300px;
+}
+
+#research-accordion .container .row #slides .slide {
+  width: 25%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+#research-accordion .container .row #slides .slide_1 {
+  background: #00171F;
+}
+
+#research-accordion .container .row #slides .slide_2 {
+  background: #003459;
+}
+
+#research-accordion .container .row #slides .slide_3 {
+  background: #007EA7;
+}
+
+#research-accordion .container .row #slides .slide_4 {
+  background: #00A8E8;
+}
+
+#research-accordion .container .row #controls {
+  margin: -180px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+}
+
+#research-accordion .container .row #controls label {
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: .4;
+}
+
+#research-accordion .container .row #controls label:hover {
+  opacity: 1;
+}
+
+#research-accordion .container .row #slide1:checked ~ #controls label:nth-child(2),
+#research-accordion .container .row #slide2:checked ~ #controls label:nth-child(3),
+#research-accordion .container .row #slide3:checked ~ #controls label:nth-child(4),
+#research-accordion .container .row #slide4:checked ~ #controls label:nth-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+  float: right;
+  margin: 0 -50px 0 0;
+  display: block;
+}
+
+#research-accordion .container .row #slide1:checked ~ #controls label:nth-last-child(2),
+#research-accordion .container .row #slide2:checked ~ #controls label:nth-last-child(3),
+#research-accordion .container .row #slide3:checked ~ #controls label:nth-last-child(4),
+#research-accordion .container .row #slide4:checked ~ #controls label:nth-last-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  float: left;
+  margin: 0 0 0 -50px;
+  display: block;
+}
+
+#research-accordion .container .row #bullets {
+  margin: 150px 0 0;
+  text-align: center;
+}
+
+#research-accordion .container .row #bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+#research-accordion .container .row #slide1:checked ~ #bullets label:nth-child(1),
+#research-accordion .container .row #slide2:checked ~ #bullets label:nth-child(2),
+#research-accordion .container .row #slide3:checked ~ #bullets label:nth-child(3),
+#research-accordion .container .row #slide4:checked ~ #bullets label:nth-child(4) {
+  background: #444;
+}
+
+@media screen and (max-width: 900px) {
+  #research-accordion .container .row #slide1:checked ~ #controls label:nth-child(2),
+  #research-accordion .container .row #slide2:checked ~ #controls label:nth-child(3),
+  #research-accordion .container .row #slide3:checked ~ #controls label:nth-child(4),
+  #research-accordion .container .row #slide4:checked ~ #controls label:nth-child(1),
+  #research-accordion .container .row #slide1:checked ~ #controls label:nth-last-child(2),
+  #research-accordion .container .row #slide2:checked ~ #controls label:nth-last-child(3),
+  #research-accordion .container .row #slide3:checked ~ #controls label:nth-last-child(4),
+  #research-accordion .container .row #slide4:checked ~ #controls label:nth-last-child(1) {
+    margin: 0;
+  }
+  #research-accordion .container .row #slides {
+    max-width: calc(100% - 140px);
+    margin: 0 auto;
+  }
+}
+
+#Research-end {
+  background: #292b2c;
+}
+
+#Research-end .container .row {
+  padding-top: 120px;
+}
+
+#Research-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#Research-end .container .row .col-3 span {
+  color: white;
+}
+
+#Research-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#Research-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#Research-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+#contact-header {
+  height: 1000px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#contact-header .header .first ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact-header .header .first ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#contact-header .header .first ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#contact-header .header .first ul li a:hover {
+  color: #e0d4a4;
+}
+
+#contact-header .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#contact-header .header .title .col-12 h1 {
+  color: white;
+}
+
+#contact-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#contact-header .box {
+  margin-top: -70px;
+}
+
+#contact-header .box h1 {
+  font-size: 50px;
+}
+
+#contact-header .box p {
+  font-size: 20px;
+}
+
+#contact-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #d4d9c1;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contact-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#contact-form {
+  height: 600px;
+}
+
+#contact-form .container {
+  margin-top: 50px;
+}
+
+#contact-form .container .row {
+  margin-top: 50px;
+  background: #cbb58b;
+}
+
+#contact-form .container .row .col-lg-6 {
+  height: 540px;
+  position: relative;
+}
+
+#contact-form .container .row .col-lg-6 .main {
+  margin-top: 40px;
+}
+
+#contact-form .container .row .col-lg-6 .main .title {
+  margin-top: 40px;
+  color: white;
+}
+
+#contact-form .container .row .col-lg-6 .main .title .send-form {
+  color: #464a4c;
+}
+
+#contact-form .container .row .col-lg-6 .main .btn {
+  font-family: Lora;
+  margin-left: -13px;
+}
+
+#contact-form .container .row .col-lg-6 .main .btn button {
+  width: 160px;
+  height: 50px;
+  border: 3px solid white;
+  background: #cbb58b;
+  color: white;
+}
+
+#contact-form .container .row .col-lg-6 .common {
+  min-height: 370px;
+  margin-top: 40px;
+  color: white;
+  position: absolute;
+  left: 120px;
+}
+
+#contact-form .container .row .col-lg-6 .common .text {
+  color: white;
+}
+
+#contact-form .container .row .col-lg-6 .common .adress {
+  margin-top: 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact-form .container .row .col-lg-6 .common .adress h4 {
+  padding-left: 20px;
+}
+
+#contact-form .container .row .col-lg-6 .common .paragraph {
+  color: white;
+  margin-top: 20px;
+}
+
+#contact-form .container .row .col-lg-6 .common .email {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact-form .container .row .col-lg-6 .common .email h4 {
+  padding-left: 10px;
+}
+
+#contact-form .container .row .col-lg-6 .common .example {
+  margin-top: 20px;
+}
+
+#contact-form .container .row .col-lg-6 .common .call {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact-form .container .row .col-lg-6 .common .call h4 {
+  padding-left: 20px;
+}
+
+#contact-form .container .row .col-lg-6 .common .number {
+  margin-top: 20px;
+}
+
+#contact-map .container1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+#contact-map .container1 .row {
+  margin-top: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#contact-map .container1 .row .col-12 p iframe {
+  width: 1150px;
+}
+
+#contact-end {
+  background: #292b2c;
+}
+
+#contact-end .container .row {
+  padding-top: 120px;
+}
+
+#contact-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#contact-end .container .row .col-3 span {
+  color: white;
+}
+
+#contact-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#contact-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#contact-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#blog-header {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blog-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#blog-header .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#blog-header .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#blog-header .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#blog-header .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#blog-header .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#blog-header .header .navbar ul .show {
+  display: block;
+}
+
+#blog-header .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#blog-header .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#blog-header .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#blog-header .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#blog-header .header .title .col-12 h1 {
+  color: white;
+}
+
+#blog-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#blog-header .box {
+  margin-top: -70px;
+}
+
+#blog-header .box h1 {
+  font-size: 50px;
+}
+
+#blog-header .box p {
+  font-size: 20px;
+}
+
+#blog-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#blog-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#blog-main {
+  height: 2300px;
+}
+
+#blog-main .container .row {
+  margin-top: 100px;
+}
+
+#blog-main .container .row .col-7 .image img {
+  width: 668px;
+}
+
+#blog-main .container .row .col-7 .image2 img {
+  width: 668px;
+}
+
+#blog-main .container .row .col-7 .image3 img {
+  width: 668px;
+}
+
+#blog-main .container .row .col-7 .icon {
+  color: black;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  word-spacing: 5px;
+}
+
+#blog-main .container .row .col-7 .paragraph {
+  margin-top: 50px;
+}
+
+#blog-main .container .row .col-7 .row .col-12 {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #686868;
+  border-top: 1px solid #686868;
+}
+
+#blog-main .container .row .col-7 .row .col-12 .icons {
+  margin-left: 335px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#blog-main .container .row .col-7 .row .col-12 .icons i {
+  margin-top: 18px;
+  margin-left: 34px;
+}
+
+#blog-main .container .row .col-7 .image2 {
+  margin-top: 50px;
+}
+
+#blog-main .container .row .image3 {
+  margin-top: 50px;
+}
+
+#blog-main .container .row .col-5 .search {
+  margin-left: 50px;
+}
+
+#blog-main .container .row .col-5 .search .input-group .form-control {
+  width: 261px;
+  height: 50px;
+}
+
+#blog-main .container .row .col-5 .search .input-group .btn {
+  background: #e0d4a4;
+  border: #e0d4a4;
+  color: white;
+  cursor: pointer;
+}
+
+#blog-main .container .row .col-5 .text {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+#blog-main .container .row .col-5 .text p {
+  margin-top: 10px;
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#blog-main .container .row .col-5 .text2 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#blog-main .container .row .col-5 .text3 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#blog-main .container .row .col-5 .paragraph {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#blog-main .container .row .col-5 .paragraph p {
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#blog-main .container .row .col-5 .text4 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#blog-main .container .row .col-5 .paragraph2 {
+  margin-left: 50px;
+}
+
+#blog-main .container .row .col-5 .paragraph2 p {
+  border-bottom: 1px solid  #d7e3d5;
+}
+
+#blog-main .container .row .col-5 .text5 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#blog-main .container .row .col-5 .paragraph3 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#blog-main .container .row .col-5 .paragraph3 p {
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#blog-end {
+  background: #292b2c;
+}
+
+#blog-end .container .row {
+  padding-top: 120px;
+}
+
+#blog-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#blog-end .container .row .col-3 span {
+  color: white;
+}
+
+#blog-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#blog-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#blog-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#singless-header {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#singless-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#singless-header .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#singless-header .header .title .col-12 h1 {
+  color: white;
+}
+
+#singless-header .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#singless-header .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#singless-header .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#singless-header .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#singless-header .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#singless-header .header .navbar ul .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#singless-header .header .navbar ul .tittle .col-12 h1 {
+  color: white;
+}
+
+#singless-header .header .navbar ul .show {
+  display: block;
+}
+
+#singless-header .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#singless-header .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#singless-header .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#singless-header .header .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#singless-header .header .tittle .col-12 h1 {
+  color: white;
+}
+
+#singless-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#singless-header .box {
+  margin-top: -70px;
+}
+
+#singless-header .box h1 {
+  font-size: 50px;
+}
+
+#singless-header .box p {
+  font-size: 20px;
+}
+
+#singless-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#singless-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#single-main .container .row {
+  margin-top: 50px;
+}
+
+#single-main .container .row .col-7 .btn {
+  font-family: Lora;
+  margin-left: -13px;
+}
+
+#single-main .container .row .col-7 .btn button {
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  border: 3px solid white;
+  background: #cbb58b;
+  color: white;
+}
+
+#single-main .container .row .col-7 .image img {
+  width: 668px;
+}
+
+#single-main .container .row .col-7 .icon {
+  color: black;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  word-spacing: 5px;
+}
+
+#single-main .container .row .col-7 .paragraph {
+  margin-top: 50px;
+}
+
+#single-main .container .row .col-7 .box {
+  background: #f4eee3;
+  height: 170px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+#single-main .container .row .col-7 .box p {
+  padding-top: 50px;
+  width: 600px;
+  padding-left: 50px;
+}
+
+#single-main .container .row .col-7 .ul {
+  color: #686868;
+}
+
+#single-main .container .row .col-7 .row .col-12 {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #686868;
+  border-top: 1px solid #686868;
+}
+
+#single-main .container .row .col-7 .row .col-12 .icons {
+  margin-left: 335px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#single-main .container .row .col-7 .row .col-12 .icons i {
+  margin-top: 18px;
+  margin-left: 34px;
+}
+
+#single-main .container .row .col-5 .search {
+  margin-left: 50px;
+}
+
+#single-main .container .row .col-5 .search .input-group .form-control {
+  width: 261px;
+  height: 50px;
+}
+
+#single-main .container .row .col-5 .search .input-group .btn {
+  background: #e0d4a4;
+  border: #e0d4a4;
+  color: white;
+  cursor: pointer;
+}
+
+#single-main .container .row .col-5 .text {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+#single-main .container .row .col-5 .text p {
+  margin-top: 10px;
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#single-main .container .row .col-5 .text2 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#single-main .container .row .col-5 .text3 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#single-main .container .row .col-5 .paragraph {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#single-main .container .row .col-5 .paragraph p {
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#single-main .container .row .col-5 .text4 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#single-main .container .row .col-5 .paragraph2 {
+  margin-left: 50px;
+}
+
+#single-main .container .row .col-5 .paragraph2 p {
+  border-bottom: 1px solid  #d7e3d5;
+}
+
+#single-main .container .row .col-5 .text5 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#single-main .container .row .col-5 .paragraph3 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#single-main .container .row .col-5 .paragraph3 p {
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#single-end {
+  background: #292b2c;
+}
+
+#single-end .container .row {
+  padding-top: 120px;
+}
+
+#single-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#single-end .container .row .col-3 span {
+  color: white;
+}
+
+#single-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#single-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#single-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#course-header {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#course-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#course-header .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#course-header .header .title .col-12 h1 {
+  color: white;
+}
+
+#course-header .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#course-header .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#course-header .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#course-header .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#course-header .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#course-header .header .navbar ul .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#course-header .header .navbar ul .tittle .col-12 h1 {
+  color: white;
+}
+
+#course-header .header .navbar ul .show {
+  display: block;
+}
+
+#course-header .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#course-header .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#course-header .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#course-header .header .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#course-header .header .tittle .col-12 h1 {
+  color: white;
+}
+
+#course-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#course-header .box {
+  margin-top: -70px;
+}
+
+#course-header .box h1 {
+  font-size: 50px;
+}
+
+#course-header .box p {
+  font-size: 20px;
+}
+
+#course-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#course-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#course-main .container .row {
+  margin: auto;
+  margin-top: 50px;
+}
+
+#course-main .container .row .col-12 .text {
+  font-size: 20px;
+  text-align: center;
+}
+
+#course-main .container .row .col-8 {
+  margin-left: 240px;
+}
+
+#course-main .container .row .col-8 .icon {
+  color: yellow;
+}
+
+#course-main .container .row .col-8 .icon i {
+  color: yellow;
+}
+
+#course-main .container .row .col-8 .ul ul li {
+  color: #686868;
+}
+
+#course-end {
+  background: #292b2c;
+}
+
+#course-end .container .row {
+  padding-top: 120px;
+}
+
+#course-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#course-end .container .row .col-3 span {
+  color: white;
+}
+
+#course-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#course-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#course-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+#sample-header {
+  height: 400px;
+  margin: 0 auto;
+  background: url("/img/slider (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sample-header .header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#sample-header .header .title .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#sample-header .header .title .col-12 h1 {
+  color: white;
+}
+
+#sample-header .header .navbar ul {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Dropdown Button */
+  /* Dropdown button on hover & focus */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+}
+
+#sample-header .header .navbar ul .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#sample-header .header .navbar ul .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#sample-header .header .navbar ul .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+#sample-header .header .navbar ul .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#sample-header .header .navbar ul .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#sample-header .header .navbar ul .tittle .col-12 h1 {
+  color: white;
+}
+
+#sample-header .header .navbar ul .show {
+  display: block;
+}
+
+#sample-header .header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#sample-header .header .navbar ul li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#sample-header .header .navbar ul li a:hover {
+  color: #e0d4a4;
+}
+
+#sample-header .header .tittle .col-12 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+#sample-header .header .tittle .col-12 h1 {
+  color: white;
+}
+
+#sample-header .slider {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+
+#sample-header .box {
+  margin-top: -70px;
+}
+
+#sample-header .box h1 {
+  font-size: 50px;
+}
+
+#sample-header .box p {
+  font-size: 20px;
+}
+
+#sample-header button {
+  border: 2px solid #ccc276;
+  width: 250px;
+  height: 56px;
+  color: #cbb58b;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#sample-header button:hover {
+  color: white;
+  background: #e0d4a4;
+}
+
+#sample-main {
+  height: 1200px;
+}
+
+#sample-main .container .row {
+  margin-top: 100px;
+}
+
+#sample-main .container .row .col-5 .search {
+  margin-left: 50px;
+}
+
+#sample-main .container .row .col-5 .search .input-group .form-control {
+  width: 261px;
+  height: 50px;
+}
+
+#sample-main .container .row .col-5 .search .input-group .btn {
+  background: #e0d4a4;
+  border: #e0d4a4;
+  color: white;
+  cursor: pointer;
+}
+
+#sample-main .container .row .col-5 .text {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+#sample-main .container .row .col-5 .text p {
+  margin-top: 10px;
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#sample-main .container .row .col-5 .text2 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#sample-main .container .row .col-5 .text3 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#sample-main .container .row .col-5 .paragraph {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#sample-main .container .row .col-5 .paragraph p {
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#sample-main .container .row .col-5 .text4 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#sample-main .container .row .col-5 .paragraph2 {
+  margin-left: 50px;
+}
+
+#sample-main .container .row .col-5 .paragraph2 p {
+  border-bottom: 1px solid  #d7e3d5;
+}
+
+#sample-main .container .row .col-5 .text5 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#sample-main .container .row .col-5 .paragraph3 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#sample-main .container .row .col-5 .paragraph3 p {
+  border-bottom: 1px solid #d7e3d5;
+}
+
+#sample-main .container .row .col-7 .image img {
+  width: 668px;
+}
+
+#sample-main .container .row .col-7 .icon {
+  color: black;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  word-spacing: 5px;
+}
+
+#sample-main .container .row .col-7 .paragraph {
+  margin-top: 10px;
+}
+
+#sample-main .container .row .col-7 .box {
+  background: #f4eee3;
+  height: 170px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+#sample-main .container .row .col-7 .box p {
+  padding-top: 50px;
+  width: 600px;
+  padding-left: 50px;
+}
+
+#sample-main .container .row .col-7 .ul {
+  color: #686868;
+}
+
+#sample-main .container .row .col-7 .row .col-12 {
+  margin-left: 15px;
+  margin-top: -54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #686868;
+  border-top: 1px solid #686868;
+}
+
+#sample-main .container .row .col-7 .row .col-12 .icons {
+  margin-left: 335px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#sample-main .container .row .col-7 .row .col-12 .icons i {
+  margin-top: 18px;
+  margin-left: 34px;
+}
+
+#sample-end {
+  background: #292b2c;
+}
+
+#sample-end .container .row {
+  padding-top: 120px;
+}
+
+#sample-end .container .row .col-3 .image-logo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: -7px;
+}
+
+#sample-end .container .row .col-3 span {
+  color: white;
+}
+
+#sample-end .container .row .col-3 h3 {
+  color: white;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#sample-end .container .row .col-3 ul li {
+  list-style: none;
+  color: #c4c4c4;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+#sample-end .container .row .col-12 p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=style.css.map */
