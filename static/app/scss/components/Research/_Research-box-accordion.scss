@@ -1,0 +1,35 @@
+#Research-box-accordion{
+    margin-top: 200px;
+    height: 500px;
+    .container{
+        .row{
+           margin-bottom: 50px;
+            
+            
+            
+            .col-10{
+                background: #cbb58b;
+                margin: 0 auto;
+                height: 300px;
+                
+                .title{
+                    position: relative;
+                    h1{
+                        position: absolute;
+                        top: 40px;
+                        left: 320px;
+                        color: white;
+                    }
+                    p{
+                        position: absolute;
+                        top: 95px;
+                        left: 20px;
+                        color: #eee5d4;
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+}

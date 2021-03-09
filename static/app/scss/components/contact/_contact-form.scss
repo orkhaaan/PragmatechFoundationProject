@@ -1,0 +1,94 @@
+#contact-form{
+    height: 600px;
+    .container{
+        margin-top: 50px;
+        .row{
+            margin-top: 50px;
+            background: #cbb58b;
+            .col-lg-6{
+                height: 540px;
+                position: relative;
+                .main{
+                    margin-top: 40px;
+                    .title{
+                        margin-top: 40px;
+                        color: white;
+                        .send-form{
+                            color: #464a4c;
+                        }
+                    }
+                    .btn{
+                        font-family: Lora;
+                        margin-left: -13px;
+                        button{
+                            width: 160px;
+                            height: 50px;
+                            border: 3px solid white;
+                            background: #cbb58b;
+                            color: white;
+                        }
+                    }
+                }
+
+                .common{
+                    min-height: 370px;
+                    margin-top: 40px;
+                    color: white;
+                    position: absolute;
+                    left: 120px;
+                    
+                    .text{
+                        color: white;
+                       
+    
+                    }
+                    .adress{
+                        margin-top: 20px;
+                    
+                        color: white;
+                        
+                        display: flex;
+                        h4{
+                            padding-left: 20px;
+                        }
+
+                   }
+                   .paragraph{
+                       color: white;
+                       margin-top: 20px;
+
+
+                   }
+                   .email{
+                       margin-top: 35px;
+
+
+                   
+                       display: flex;
+                       h4{
+                           padding-left: 10px;
+                       }
+                   }
+                   .example{
+                       margin-top: 20px;
+
+                   }
+                   .call{
+                       margin-top: 20px;
+                       display: flex;
+                       h4{
+                           padding-left: 20px;
+                       }
+
+                   
+                   }
+                   .number{
+                       margin-top: 20px;
+                   }
+                }
+
+
+            }
+        }
+    }
+}

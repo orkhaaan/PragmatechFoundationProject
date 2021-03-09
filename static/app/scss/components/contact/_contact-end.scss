@@ -1,0 +1,47 @@
+#contact-end{
+    
+    background: #292b2c;
+    .container{
+        .row{
+            padding-top: 120px;
+            .col-3{
+                
+                .image-logo{
+                    img{
+                        width: 100%;
+                        border-radius: 10px;
+                        margin-left: -7px;
+                    }
+                }
+                span{
+                    color: white;
+                }
+                h3{
+                    color: white;
+                    margin-left: 35px;
+                    font-size: 20px;
+                }
+                ul{
+                    li{
+                        list-style: none;
+                        color: #c4c4c4;
+                        padding-bottom: 25px;
+                        cursor: pointer;
+                       
+                    }
+                }
+               
+            }
+            .col-12{
+                p{
+                    text-align: center;
+                    align-items: center;
+                    color: #c4c4c4;
+                    margin-top: 40px;
+                    margin-bottom: 100px;
+                }
+            }
+     
+        }
+    }
+}

@@ -1,0 +1,23 @@
+#admissions-rules{
+    .container{
+        .row{
+            border-bottom: 2px solid #EBEBEB;
+            margin: 100px;
+        
+            .col-6{
+                
+                .box{
+                    height: 200px;
+                    h1{
+                        font-size: 40px;
+                    }
+                    // p{}
+                    ul{
+                        margin-top: 110px;
+                        // li{}
+                    }
+                }
+            }
+        }
+    }
+}

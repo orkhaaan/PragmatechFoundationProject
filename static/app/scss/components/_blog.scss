@@ -1,0 +1,202 @@
+#blog{
+    height: 950px;
+    background: #f2f2f2;
+
+    .container{
+
+        .row{
+
+            text-align: center;
+            align-items: center;
+            .col-12{
+                .title{
+                    font-size: 25px;
+
+                }
+            }
+            .col-8{
+                cursor: pointer;
+
+                // .image{}
+
+                
+                .footer{
+                    background-color: white;
+                    height: 120px;
+                    margin-left: 10px;
+                    width: 711px;
+                    margin-top: -4px;
+                    position: relative;
+                    h3{
+                        position: absolute;
+                        left: 35px;
+                    }
+                    .far{
+                        position: absolute;
+                        top: 70px;
+                        left: 35px;
+                    }
+                    p{
+                        position: absolute;
+                        top: 52px;
+                        left: 60px;
+                    }
+                }
+            }
+            .col-4{
+                cursor: pointer;
+                // .image1{
+
+                // }
+                .footer1{
+                    background-color: white;
+                    height: 120px;
+                    margin-left: 0px;
+                    width: 362px;
+                    margin-top: -4px;
+                    position: relative;
+                    h3{
+                        position: absolute;
+                        left: 35px;
+                    }
+                    .far{
+                        position: absolute;
+                        top: 70px;
+                        left: 35px;
+                    }
+                    p{
+                        position: absolute;
+                        top: 52px;
+                        left: 60px;
+                    }
+
+                    
+                }
+                .box{
+                    margin-left: 25px;
+                    margin-top: 30px;
+
+                    // .image2{
+
+                    // }
+                    .footer2{
+                        background-color: white;
+                        height: 120px;
+                        margin-left: 0px;
+                        width: 362px;
+                        margin-top: -4px;
+                        position: relative;
+                        h3{
+                            position: absolute;
+                            left: 35px;
+                        }
+                        .far{
+                            position: absolute;
+                            top: 70px;
+                            left: 35px;
+                        }
+                        p{
+                            position: absolute;
+                            top: 52px;
+                            left: 60px;
+                        }
+    
+                        
+                    }
+
+                }
+                .box3{
+                    margin-left: 50px;
+                    margin-top: 30px;
+                    .image2{
+                        margin-left: -26px;
+                        img{
+                            width: 97%;
+                            height: 222px;
+                            margin-left: -11px;
+                            
+                        }
+                    }
+                    .footer2{
+                        background-color: white;
+                        height: 123px;
+                        margin-left: -26px;
+                        width: 325px;
+                        margin-top: -4px;
+                        position: relative;
+                        h3{
+                            position: absolute;
+                            left: 35px;
+                        }
+                        .far{
+                            position: absolute;
+                            top: 70px;
+                            left: 35px;
+                        }
+                        p{
+                            position: absolute;
+                            top: 52px;
+                            left: 60px;
+                        }
+    
+                        
+                    }
+
+                }
+                .box4{
+                    margin-left: -8px;
+                    margin-top: 30px;
+                    .image4{
+                        margin-top: 30px;
+                        margin-left: -2px;
+                        img{
+                            margin-left: 2px;
+                        }
+                        }
+                    }
+                    .footer4{
+                        background-color: white;
+                        height: 120px;
+                        margin-left: 4px;
+                        width: 362px;
+                        margin-top: -4px;
+                        position: relative;
+                        h3{
+                            position: absolute;
+                            left: 35px;
+                        }
+                        .far{
+                            position: absolute;
+                            top: 70px;
+                            left: 35px;
+                        }
+                        p{
+                            position: absolute;
+                            top: 52px;
+                            left: 60px;
+                        }
+    
+                        
+                    }
+                }
+            }
+         
+            .btn{
+                margin: auto;
+                margin-top: 31px;
+                button{
+                    cursor: pointer;
+                    height: 60px;
+                    width: 250px;
+                    border: 2px solid #8c8022;
+                    color: #8c8022;
+                    font-size: 18px;
+                    &:hover{
+                        background:  #ccc276 ;
+                        color: white;
+                }
+            }
+
+        }
+    }
+}

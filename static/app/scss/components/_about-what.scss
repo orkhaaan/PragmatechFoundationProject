@@ -1,0 +1,35 @@
+#what{
+    height: 650px;
+    .container{
+        margin-top: 100px;
+        .row{
+            .col-6{
+                margin-top: 50px;
+                .box{
+                    h1{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                    .btn{
+                        margin-top: 30px;
+                        button{
+                            cursor: pointer;
+                            height: 60px;
+                            background: white;
+                            width: 250px;
+                            border: 2px solid #cbb58b;
+                            color: #cbb58b;
+                            font-size: 18px;
+                            &:hover{
+                                background:  #cbb58b ;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

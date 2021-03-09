@@ -1,0 +1,119 @@
+#blog-main{
+    height: 2300px;
+    .container{
+        .row{
+            margin-top: 100px;
+            .col-7{
+                .image{
+                    img{
+                        width: 668px;
+                    }
+                }
+                .image2{
+                    img{
+                        width: 668px;
+                    }
+                }
+                .image3{
+                    img{
+                        width: 668px;
+                    }
+                }
+                .icon{
+                    color: black ;
+                    margin-top: 20px;
+                    display: flex;
+                    word-spacing: 5px;
+                }
+                .paragraph{
+                    margin-top: 50px;
+                }
+                .row{
+                    .col-12{
+                        margin-left: 15px;
+
+                        display: flex;
+                        border-bottom: 1px solid #686868;
+                        border-top: 1px solid #686868;
+                        .icons{
+                            margin-left: 335px;
+                            display: flex;
+                            i{
+                                margin-top: 18px;
+                                margin-left: 34px;
+                            }
+                        }
+                    }
+                }
+                .image2{
+                    margin-top: 50px;
+                   
+                }
+            }
+            .image3{
+                margin-top: 50px;
+            }
+            .col-5{
+                .search{
+                    margin-left:$admissions-margin;
+                    .input-group{
+                        .form-control{
+                            width: 261px;
+                            height: 50px;
+                        }
+                        .btn{
+                            background:  #e0d4a4;
+                            border:  #e0d4a4;
+                            color: white;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .text{
+                    margin-top: 40px;
+                    margin-left: $admissions-margin;
+                    p{
+                        margin-top: 10px;
+                        border-bottom: 1px solid #d7e3d5;
+                    }
+                }
+                .text2{
+                    margin-left: 50px;
+                    margin-top: 50px;
+                }
+                .text3{
+                    margin-top: 50px;
+                    margin-left: $admissions-margin;
+                }
+                .paragraph{
+                    margin-left: $admissions-margin;
+                    margin-top: 20px;
+                    p{
+                        border-bottom: 1px solid #d7e3d5;
+                    }
+                }
+                .text4{
+                    margin-left: $admissions-margin;
+                    margin-top: 50px;
+                }
+                .paragraph2{
+                    margin-left: $admissions-margin;
+                    p{
+                        border-bottom: 1px solid  #d7e3d5;
+                    }
+                }
+                .text5{
+                    margin-left: $admissions-margin;
+                    margin-top: 50px;
+                }
+                .paragraph3{
+                    margin-left: $admissions-margin;
+                    margin-top: 20px;
+                    p{
+                        border-bottom: 1px solid #d7e3d5;
+                    }
+                }
+            }
+        }
+    }
+}

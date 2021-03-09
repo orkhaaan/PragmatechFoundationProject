@@ -1,0 +1,31 @@
+#course-main{
+    .container{
+        .row{
+            margin: auto;
+            margin-top: $admissions-margin;
+            .col-12{
+                .text{
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+            .col-8{
+                margin-left: 240px;
+            .icon{
+                color: yellow;
+                i{
+                    color: yellow;
+                }
+            }
+            .ul{
+                ul{
+                    li{
+                        color:#686868 ;
+                    }
+
+                }
+            }
+            }
+        }
+    }
+}
